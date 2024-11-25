@@ -1,10 +1,11 @@
-import React from "react";
+import { BsInfoCircleFill } from "react-icons/bs";
+import PageHeader from "../../components/pageHeader/PageHeader";
 
 const Skills = () => {
   return (
-    <div>
-      <h1>Skills</h1>
-    </div>
+    <section id="skills" className="skills">
+      <PageHeader headerText="Skills" icon={<BsInfoCircleFill size={40} />} />
+    </section>
   );
 };
 
