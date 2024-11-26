@@ -3,6 +3,7 @@ import { FaReact, FaBars } from "react-icons/fa";
 import { HiX } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import "./navbar.scss";
+
 const data = [
   { label: "HOME", to: "/" },
   { label: "ABOUT ME", to: "/about" },
@@ -14,9 +15,16 @@ const data = [
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+
   const handleToggleIcon = () => {
     setToggle(!toggle);
   };
+
+  // Function to close the navbar when a menu item is clicked
+  const handleMenuItemClick = () => {
+    setToggle(false);
+  };
+
   return (
     <div>
       <nav className="navbar">
@@ -27,7 +35,11 @@ const Navbar = () => {
         </div>
         <ul className={`navbar__container__menu ${toggle ? "active" : ""}`}>
           {data.map((item, key) => (
-            <li key={key} className="navbar__container__menu__item">
+            <li
+              key={key}
+              className="navbar__container__menu__item"
+              onClick={handleMenuItemClick} // Close navbar on item click
+            >
               <Link
                 className="navbar__container__menu__item__links"
                 to={item.to}
