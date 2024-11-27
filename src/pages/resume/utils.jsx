@@ -31,7 +31,7 @@ const resumedata = {
     },
     {
       title: "Schooling upto 10th Standard",
-      timeline: "Aug 2024 - Aug 2024",
+      timeline: "completed by Feb 2018",
       subTitle: "Gayatri School, Srikakulam",
       description:
         "Completed my schooling with 9.8 GPA. Ramanujan Math olympiad winner in my 9th standard.",
