@@ -75,16 +75,16 @@ const About = () => {
           >
             <div className="about__content__servicesWrapper__innerContent">
               <div>
-                <FaDev size={60} color="var(--yellow-theme-main-color)" />
+                <FaDev size={60} color="var(--green-theme-main-color)" />
               </div>
               <div>
-                <TbBrandCpp size={60} color="var(--yellow-theme-main-color)" />
+                <TbBrandCpp size={60} color="var(--green-theme-main-color)" />
               </div>
               <div>
-                <FaDatabase size={60} color="var(--yellow-theme-main-color)" />
+                <FaDatabase size={60} color="var(--green-theme-main-color)" />
               </div>
               <div>
-                <FaJava size={60} color="var(--yellow-theme-main-color)" />
+                <FaJava size={60} color="var(--green-theme-main-color)" />
               </div>
             </div>
           </Animate>

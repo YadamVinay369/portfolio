@@ -22,7 +22,7 @@ const Resume = () => {
           <h3 className="timeline__experience__header-text">Experience</h3>
           <VerticalTimeline
             layout={"1-column"}
-            lineColor="var(--yellow-theme-main-color)"
+            lineColor="var(--green-theme-main-color)"
           >
             {resumeData.experience.map((item, i) => (
               <VerticalTimelineElement
@@ -30,14 +30,14 @@ const Resume = () => {
                 className="timeline__experience__vertical-timeline-element"
                 contentStyle={{
                   background: "none",
-                  color: "var(--yellow-theme-sub-text-color)",
-                  border: "1.5px solid var(--yellow-theme-main-color)",
+                  color: "var(--green-theme-sub-text-color)",
+                  border: "1.5px solid var(--green-theme-main-color)",
                 }}
                 date={item.timeline}
                 icon={<MdWork />}
                 iconStyle={{
                   background: "#181818",
-                  color: "var(--yellow-theme-main-color)",
+                  color: "var(--green-theme-main-color)",
                 }}
               >
                 <div className="vertical-timeline-element-title-wrapper">
@@ -54,7 +54,7 @@ const Resume = () => {
           <h3 className="timeline__education__header-text">Education</h3>
           <VerticalTimeline
             layout={"1-column"}
-            lineColor="var(--yellow-theme-main-color)"
+            lineColor="var(--green-theme-main-color)"
           >
             {resumeData.education.map((item, i) => (
               <VerticalTimelineElement
@@ -62,14 +62,14 @@ const Resume = () => {
                 className="timeline__education__vertical-timeline-element"
                 contentStyle={{
                   background: "none",
-                  color: "var(--yellow-theme-sub-text-color)",
-                  border: "1.5px solid var(--yellow-theme-main-color)",
+                  color: "var(--green-theme-sub-text-color)",
+                  border: "1.5px solid var(--green-theme-main-color)",
                 }}
                 date={item.timeline}
                 icon={<MdWork />}
                 iconStyle={{
                   background: "#181818",
-                  color: "var(--yellow-theme-main-color)",
+                  color: "var(--green-theme-main-color)",
                 }}
               >
                 <div className="vertical-timeline-element-title-wrapper">

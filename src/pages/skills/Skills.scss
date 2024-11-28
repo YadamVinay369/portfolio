@@ -15,15 +15,15 @@
     
             &__category-text{
                 display: inline;
-                color: var(--yellow-theme-main-color);
+                color: var(--green-theme-main-color);
                 font-size: 22px;
                 font-weight: 700;
                 line-height: 1rem;
                 letter-spacing: 0.5px;
                 position: relative;
                 text-transform: uppercase;
-                padding: 5px 10px;
-                border-bottom: 2px solid var(--yellow-theme-main-color);
+                padding: 10px;
+                border-bottom: 2px solid var(--green-theme-main-color);
             }
 
             &__category-text::before, &__category-text::after{
@@ -31,7 +31,7 @@
                 content: '';
                 width: 2px;
                 height: 5px;
-                background-color: var(--yellow-theme-main-color);
+                background-color: var(--green-theme-main-color);
                 bottom: -1px;
             }
 
@@ -55,7 +55,21 @@
                     margin: 0 0 10px;
                     font-weight: 500;
                     text-transform: capitalize;
-                    color: var(--yellow-theme-main-color);
+                    color: var(--green-theme-main-color);
+                }
+
+                &__line{
+                    animation: growth 1s;
+                    transition: smooth;
+                }
+
+                @keyframes growth{
+                    from{
+                        width: 0%;
+                    }
+                    to{
+                        width: 100%;
+                    }
                 }
             }
 

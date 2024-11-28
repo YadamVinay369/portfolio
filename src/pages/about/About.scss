@@ -17,7 +17,7 @@
                 margin-bottom: 10px;
                 font-size: 2.5rem;
                 font-weight: 700;
-                color: var(--yellow-theme-main-color);
+                color: var(--green-theme-main-color);
             }
 
             h3.personalInfo{
@@ -25,11 +25,11 @@
             }
 
             p{
-                color: var(--yellow-theme-sub-text-color);
+                color: var(--green-theme-sub-text-color);
                 font-size: 1.8rem;
                 line-height: 1.65;
                 padding-bottom: 20px;
-                border-bottom: 1px dashed var(--yellow-theme-main-color);
+                border-bottom: 1px dashed var(--green-theme-main-color);
             }
 
             ul > li {
@@ -40,12 +40,12 @@
                     font-size: 1.8rem;
                     font-weight: 500;
                     letter-spacing: 0.5px;
-                    border-bottom: 2px solid var(--yellow-theme-main-color);
+                    border-bottom: 2px solid var(--green-theme-main-color);
                     position: relative;
                     display: inline-block;
                     margin-right: 16px;
                     padding-bottom: 6px;
-                    color: var(--yellow-theme-sub-text-color);
+                    color: var(--green-theme-sub-text-color);
                 }
                 span.value{
                     border: none;
@@ -60,10 +60,10 @@
             &__innerContent{
                 width: 350px;
                 height: 350px;
-                background: radial-gradient(180px,var(--yellow-theme-main-color),transparent 90%);
+                background: radial-gradient(180px,var(--green-theme-main-color),transparent 90%);
                 position: relative;
                 border-radius: 50%;
-                border: 1px solid var(--yellow-theme-main-color);
+                border: 1px solid var(--green-theme-main-color);
                 animation: rotation 10s linear 0s infinite;
 
                 div{
@@ -112,7 +112,7 @@
             &__innerContent{
                 width: 260px;
                 height: 260px;
-                background: radial-gradient(100px,var(--yellow-theme-main-color),transparent 120%);
+                background: radial-gradient(100px,var(--green-theme-main-color),transparent 120%);
 
                 div:nth-child(1){
                     top: -15%;
