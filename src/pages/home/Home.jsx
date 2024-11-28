@@ -25,6 +25,15 @@ const Home = () => {
         >
           <div className="home__text-wrapper__contact-me">
             <button onClick={handleNavigateToContact}>Hire Me</button>
+            <button>
+              <a
+                href="https://drive.google.com/file/d/1FLj2Tn0-PInerMALdT6uqSHDcLuy62Fo/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Resume
+              </a>
+            </button>
           </div>
         </Animate>
       </div>
