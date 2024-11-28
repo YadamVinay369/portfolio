@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { BsInfoCircleFill } from "react-icons/bs";
 import PageHeader from "../../components/pageHeader/PageHeader";
-import BreakUp from "../../images/BreakUp.png";
-import DonorHub from "../../images/DonorHub.png";
-import ImageTracer from "../../images/ImageTracer.png";
-import InsightRise from "../../images/InsightRise.png";
-import Marime from "../../images/Marime.png";
-import MermoryGame from "../../images/MemoryGame.png";
-import Praanayam from "../../images/Praanayam.png";
+import BreakUp from "../../images/BreakUp.avif";
+import DonorHub from "../../images/DonorHub.avif";
+import ImageTracer from "../../images/ImageTracer.avif";
+import InsightRise from "../../images/InsightRise.avif";
+import Marime from "../../images/Marime.avif";
+import MermoryGame from "../../images/MemoryGame.avif";
+import Praanayam from "../../images/Praanayam.avif";
 import "./Portfolio.scss";
 
 const portfolioData = [
@@ -115,7 +115,7 @@ const Portfolio = () => {
               onMouseLeave={() => handleHover(null)}
             >
               <div className="portfolio__content__cards__item__image-wrapper">
-                <img src={item.image} alt="dummy data" />
+                <img loading="lazy" src={item.image} alt="dummy data" />
               </div>
               <div className="overlay">
                 {index === hoveredValue && (
