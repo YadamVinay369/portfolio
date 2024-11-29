@@ -15,7 +15,7 @@
     
             &__category-text{
                 display: inline;
-                color: var(--green-theme-main-color);
+                color: var(--green-theme-sub-text-color);
                 font-size: 22px;
                 font-weight: 700;
                 line-height: 1rem;
@@ -55,7 +55,7 @@
                     margin: 0 0 10px;
                     font-weight: 500;
                     text-transform: capitalize;
-                    color: var(--green-theme-main-color);
+                    color: var(--green-theme-sub-text-color);
                 }
 
                 &__line{
