@@ -29,11 +29,9 @@ const particlesConfig = {
   },
   particles: {
     color: {
-      // value: "#ffffff",
       value: "#49FF00",
     },
     links: {
-      //color: "#ffffff",
       value: "#49FF00",
       distance: 150,
       enable: true,

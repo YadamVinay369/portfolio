@@ -17,11 +17,11 @@ const personalDetails = [
   },
   {
     label: "Address",
-    value: "Andhra Pradesh, India",
+    value: "Srikakulam, Andhra Pradesh, India",
   },
   {
     label: "Email",
-    value: "yadamvinay@gmail.com",
+    value: "vinay.y21@iiits.in",
   },
   {
     label: "Phone",
@@ -29,7 +29,7 @@ const personalDetails = [
   },
 ];
 const jobSummary =
-  "I am a passionate web developer and a computer science student with a strong foundation in programming, data structures, and algorithms. My enthusiasm for coding drives me to create efficient, innovative solutions and continuously expand my technical expertise.";
+  "As a computer science student with a solid background in programming, data structures, and algorithms, I am an enthusiastic web developer. My passion for coding motivates me to develop effective, creative solutions and keep learning new technological skills.";
 const About = () => {
   return (
     <section id="about" className="about">

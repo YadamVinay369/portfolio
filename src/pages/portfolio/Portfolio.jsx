@@ -18,6 +18,12 @@ const portfolioData = [
     link: "https://github.com/YadamVinay369/DonorHub",
   },
   {
+    id: 3,
+    name: "BreakUp",
+    image: BreakUp,
+    link: "https://github.com/YadamVinay369/BreakUp-JavaScript-Miniproject",
+  },
+  {
     id: 2,
     name: "ImageTracer",
     image: ImageTracer,
@@ -34,12 +40,6 @@ const portfolioData = [
     name: "InsightRise",
     image: InsightRise,
     link: "https://github.com/YadamVinay369/InsightRise",
-  },
-  {
-    id: 3,
-    name: "BreakUp",
-    image: BreakUp,
-    link: "https://github.com/YadamVinay369/BreakUp-JavaScript-Miniproject",
   },
   {
     id: 3,

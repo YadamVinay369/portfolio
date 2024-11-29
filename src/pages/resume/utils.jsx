@@ -12,7 +12,7 @@ const resumedata = {
       timeline: "Aug 2024 - Sept 2024",
       subTitle: "kerala (Work from home)",
       description:
-        "Performed multiple tests on Yoliday application and found nearly 15 bugs.",
+        "Performed multiple tests on Yoliday application and identified nearly 15 bugs.",
     },
   ],
   education: [
@@ -20,7 +20,8 @@ const resumedata = {
       title: "Btech Computer Science",
       timeline: "April 2021 - April 2025",
       subTitle: "IIIT Sricity",
-      description: "Currently, I am a final year student.",
+      description:
+        "Currently, I am a final year student. Electrothon Winner at IIIT Sricity",
     },
     {
       title: "Intermediate (11th and 12th)",
