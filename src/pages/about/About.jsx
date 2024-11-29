@@ -17,7 +17,7 @@ const personalDetails = [
   },
   {
     label: "Address",
-    value: "Srikakulam, Andhra Pradesh, India",
+    value: "Andhra Pradesh, India",
   },
   {
     label: "Email",
