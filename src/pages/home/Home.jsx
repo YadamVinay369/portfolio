@@ -33,7 +33,15 @@ const Home = () => {
             start={{ transform: "translateY(550px)" }}
             end={{ transform: "translatex(0px)" }}
           >
-            <button>
+            <button
+              onClick={() => {
+                window.open(
+                  "https://github.com/YadamVinay369",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            >
               <a
                 href="https://github.com/YadamVinay369"
                 target="_blank"
@@ -50,9 +58,17 @@ const Home = () => {
             start={{ transform: "translateY(550px)" }}
             end={{ transform: "translatex(0px)" }}
           >
-            <button>
+            <button
+              onClick={() => {
+                window.open(
+                  "https://drive.google.com/drive/folders/1J5_2Bjj_mFQVyAgsmdTbbq1qLMfQJJLJ?usp=drive_link",
+                  "_blank",
+                  "noopener,noreferrer"
+                );
+              }}
+            >
               <a
-                href="https://drive.google.com/file/d/1FLj2Tn0-PInerMALdT6uqSHDcLuy62Fo/view?usp=drive_link"
+                href="https://drive.google.com/drive/folders/1J5_2Bjj_mFQVyAgsmdTbbq1qLMfQJJLJ?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
               >
