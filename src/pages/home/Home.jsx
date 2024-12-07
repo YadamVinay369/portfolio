@@ -16,15 +16,40 @@ const Home = () => {
           <br />
           Full Stack Web Developer
         </h1>
-        <Animate
-          play
-          duration={1}
-          delay={0}
-          start={{ transform: "translateY(550px)" }}
-          end={{ transform: "translatex(0px)" }}
-        >
-          <div className="home__text-wrapper__contact-me">
-            <button onClick={handleNavigateToContact}>Hire Me</button>
+        <div className="home__text-wrapper__contact-me">
+          <Animate
+            play
+            duration={0.5}
+            delay={0}
+            start={{ transform: "translateY(550px)" }}
+            end={{ transform: "translatex(0px)" }}
+          >
+            <button onClick={handleNavigateToContact}>Hire Me</button>{" "}
+          </Animate>
+          <Animate
+            play
+            duration={0.7}
+            delay={0}
+            start={{ transform: "translateY(550px)" }}
+            end={{ transform: "translatex(0px)" }}
+          >
+            <button>
+              <a
+                href="https://github.com/YadamVinay369"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+            </button>
+          </Animate>
+          <Animate
+            play
+            duration={1}
+            delay={0}
+            start={{ transform: "translateY(550px)" }}
+            end={{ transform: "translatex(0px)" }}
+          >
             <button>
               <a
                 href="https://drive.google.com/file/d/1FLj2Tn0-PInerMALdT6uqSHDcLuy62Fo/view?usp=drive_link"
@@ -34,8 +59,8 @@ const Home = () => {
                 Resume
               </a>
             </button>
-          </div>
-        </Animate>
+          </Animate>
+        </div>
       </div>
     </section>
   );
